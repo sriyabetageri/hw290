@@ -21,7 +21,7 @@ motorD_pos = 0
 motorE_pos = 0
 motorF_pos = 0
 
-# - perform simulation steps until Webots is stopping the controller
+
 while robot.step(timestep) != -1:
     key_pressed = kb.getKey()   
     print(key_pressed) 
